@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <!--container prend centre la div sur la page alors que container-fluid prend la totalite de la page web.-->
+      <div class="container" style="background:red">
+        <h3>Ma page Bootstrap</h3>
+        <p>Mon premier paragraphe Bootstrap</p>
+      </div>
+
+      <!--Grid system
+        Categories de largeur
+    xs < 768px  phones    all (container)
+    sm >=768px  tablets   750px (container)
+    md >=992px  desktop   970px (container)
+    lg >=1200px large desktop 1170 (container)
+    
+    -->
+
+    <div class="container">
+        <div class="row">
+            <div id="block1" class=" col-md-6" style="border:1px solid red">            
+             <h3>Ma page Bootstrap</h3>
+             <p>Mon premier paragraphe Bootstrap</p>
+            </div>
+            <div id="block2" class=" col-md-6" style="border:1px solid red">            
+                <h3>Ma page Bootstrap</h3>
+                <p>Mon premier paragraphe Bootstrap</p>
+               </div>
+        </div>
+    </div>
+
+    <!--(suite)
+    
+    -->
+</body>
+</html>
